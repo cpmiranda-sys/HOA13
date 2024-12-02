@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: true
+  pre_tasks:
+
+
+- hosts: ubuntu
+  become: true
+  roles:
+    - controller-compute
+    
+
